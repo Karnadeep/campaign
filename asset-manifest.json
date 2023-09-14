@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/campaign/static/css/main.d3c2befa.css",
+    "main.js": "/campaign/static/js/main.dac70009.js",
+    "static/js/787.7918cd38.chunk.js": "/campaign/static/js/787.7918cd38.chunk.js",
+    "index.html": "/campaign/index.html",
+    "main.d3c2befa.css.map": "/campaign/static/css/main.d3c2befa.css.map",
+    "main.dac70009.js.map": "/campaign/static/js/main.dac70009.js.map",
+    "787.7918cd38.chunk.js.map": "/campaign/static/js/787.7918cd38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3c2befa.css",
+    "static/js/main.dac70009.js"
+  ]
+}
