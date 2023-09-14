@@ -1,0 +1,80 @@
+/* Style the table container */
+div.mainContainer {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+/* Style the table header */
+thead {
+  background-color: #007bff;
+  /* Blue header background */
+  color: #fff;
+  /* White text color */
+}
+
+/* Style the table header cells */
+th {
+  padding: 10px;
+}
+
+/* Style the table body rows */
+tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+  /* Light gray background for odd rows */
+}
+
+/* Style the table body cells */
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Add some hover effect to rows */
+tbody tr:hover {
+  background-color: #cce5ff;
+  /* Light blue background on hover */
+}
+
+/* Add style to filter section */
+.filterSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+td.active-campaign::before {
+  content: "";
+  background-color: green;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  font-size: 10px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+td.inactive-campaign::before {
+  content: "";
+  background-color: red;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  font-size: 10px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.search-campaign,
+.clear-btn {
+  font-size: 14px;
+  padding: 4px 11px;
+}
